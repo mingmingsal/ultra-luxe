@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Catchy Mager';
+  src: url('./assets/fonts/Catchy Mager Regular.ttf');
+}
 #root {
   text-align: center;
 }

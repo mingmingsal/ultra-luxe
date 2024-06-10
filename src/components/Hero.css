@@ -1,11 +1,45 @@
 .player-wrapper {
-    width: 100%;
+    position: relative;
+    padding-top: 06.25%; /* Player ratio: 100 / (1280 / 720) */
+  }
+  
+  .react-player {
     position: absolute;
-    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+h1,
+h2 {
+  font-family: "Catchy Mager";
+  font-weight: 400;
+}
+h2 {
+  font-size: 4rem;
+  margin-top: -3rem;
 }
 h1 {
-    font-size: 10rem;
+  font-size: 10rem;
+  font-family: "Catchy Mager";
+  font-weight: 400;
 }
 .hero {
-    position: relative;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  color: white;
+
+}
+.text{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 auto;
+    position: absolute;
+}
+.hero button {
+  width: 5rem;
 }
