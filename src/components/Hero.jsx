@@ -7,8 +7,8 @@ const Hero = () => {
     videoPlayer.current.playbackRate = .75;
   }
   return (
-    <div className="hero">
-      <div className="text">
+    <section className="hero">
+      <div className="hero-text">
         <p>Welcome to</p>
         <h1>The Ultra-Luxe</h1>
         <h2>Casino & Spa Hotel</h2>
@@ -20,11 +20,11 @@ const Hero = () => {
         onPlay={setPlayback}
         muted
         loop
-        style={{ height: "100%", width: "100%", objectFit: "cover" }} //object-fit:cover
+        style={{ height: "100%", width: "100%", objectFit: "cover" }}
       >
         <source src={herobg} type="video/mp4" />
       </video>
-    </div>
+    </section>
   );
 };
 
