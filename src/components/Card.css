@@ -1,0 +1,28 @@
+.card{
+    height: 500px;
+    display: grid;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 350px;
+    gap: 1rem;
+    
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.card-text {
+    padding: 1rem;
+    color: #623E2A;
+    text-align: left;
+    font-family: 'Libre Franklin';
+    border: .5px solid #623E2A;
+}
+.card-text *{
+    margin-bottom: 1rem;
+}

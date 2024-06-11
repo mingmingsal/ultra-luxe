@@ -10,6 +10,10 @@ const Opener = () => {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit unde
           ducimus magni sint saepe! Expedita officia temporibus, sint
           consequuntur pariatur distinctio fugit non, esse ea culpa quibusdam
+          tenetur quidem officiis? <br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit unde
+          ducimus magni sint saepe! Expedita officia temporibus, sint
+          consequuntur pariatur distinctio fugit non, esse ea culpa quibusdam
           tenetur quidem officiis?
         </p>
         

@@ -1,0 +1,18 @@
+.accomodations{
+    height: 600px;
+    
+
+}
+.accomodations-cards{
+    padding: 0 5vw;
+    overflow-x: scroll;
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 1200px) {
+    .accomodations-cards{
+        justify-content: center;
+        overflow-x: hidden;
+    }
+}
