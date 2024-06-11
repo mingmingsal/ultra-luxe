@@ -1,8 +1,11 @@
-import React from "react";
 import "./Hero.css";
-import ReactPlayer from "react-player";
 import herobg from "../assets/videos/Ultra Luxe Hero.mp4";
+import { useRef } from "react";
 const Hero = () => {
+  const videoPlayer = useRef(null);
+  function setPlayback(){
+    videoPlayer.current.playbackRate = .75;
+  }
   return (
     <div className="hero">
       <div className="text">
@@ -13,6 +16,8 @@ const Hero = () => {
       </div>
       <video
         autoPlay
+        ref={videoPlayer}
+        onPlay={setPlayback}
         muted
         loop
         style={{ height: "100%", width: "100%", objectFit: "cover" }} //object-fit:cover
