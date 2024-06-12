@@ -5,7 +5,7 @@ const Opener = () => {
     <section className="opener">
       <div className="opener-text">
         <h2>A Luxury Home Away From Home </h2>
-        <img  src={gourmand}/>
+        <img  src={gourmand} loading="lazy"/>
         <p className="flavor-text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit unde
           ducimus magni sint saepe! Expedita officia temporibus, sint

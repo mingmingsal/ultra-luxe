@@ -1,6 +1,6 @@
 .opener-text {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   padding: 3rem;
@@ -10,16 +10,20 @@
   width: 90%;
   height: 100%;
   margin: 0 auto;
+  max-width: 1600px;
 }
 .opener {
   background-color: #f4f1ed;
   width: 100%;
+  
   height: 90vh;
 }
 .opener-text > img {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  margin-top: 5%;
+  margin-left: 10%;
   object-fit: cover;
   grid-column-start: 2;
   grid-row-start: 1;
@@ -42,12 +46,21 @@
   position: absolute;
   width: 50px;
 }
+@media screen and (max-width: 1300px){
+    .opener-text > img {
+        width: 100%;
+        margin-left: 0;
+      }
+}
 @media screen and (max-width: 800px) {
   .opener-text > img {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 0;
   }
   .opener-text > h2 {
     grid-column-start: 1;

@@ -2,7 +2,7 @@ import "./Card.css";
 export const Card = ({ prologue, title, description, photo, buttonText='Learn More' }) => {
   return (
     <div className="card">
-      <img src={photo} />
+      <img loading="lazy" src={photo} />
       <div className="card-text">
         <p>{prologue}</p>
         <h3>{title}</h3>

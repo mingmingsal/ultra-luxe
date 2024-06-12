@@ -1,5 +1,5 @@
 import "./Hero.css";
-import herobg from "../assets/videos/Ultra Luxe Hero.mp4";
+import herobg from "../assets/videos/ultraluxe720.mp4";
 import { useRef } from "react";
 const Hero = () => {
   const videoPlayer = useRef(null);

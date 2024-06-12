@@ -2,6 +2,7 @@ import "./Accomodations.css";
 import bonvivant from "../assets/images/Bon_Vivant_suite.webp";
 import basic from "../assets/images/Basic_suite.webp";
 import  henderson from "../assets/images/Henderson_penthouse.webp";
+
 import { Card } from "./Card";
 export const Accomodations = () => {
   return (
