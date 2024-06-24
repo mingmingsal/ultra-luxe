@@ -1,7 +1,7 @@
 import './App.css'
 import FrontPage from './pages/FrontPage'
 import ReactDOM from "react-dom/client";
-import { Contact } from './components/Contact';
+import { Contact } from './pages/Contact';
 import Header from './components/Header';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
