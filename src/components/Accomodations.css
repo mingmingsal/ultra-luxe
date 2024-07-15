@@ -1,7 +1,7 @@
 .accomodations{
-    height: 600px;
+    min-height: 800px;
     background-color: #EFEBE5;
-
+    padding: 5rem 0;
 }
 .accomodations-cards{
     padding: 0 5vw;
@@ -15,4 +15,11 @@
         justify-content: center;
         overflow-x: hidden;
     }
+}
+
+.accomodations h2{
+    color: #623E2A;
+    font-size: calc(1.5rem + 3vw);
+    font-family: "Libre Franklin";
+    font-weight: 400;
 }

@@ -1,0 +1,29 @@
+ .small-photo {
+    position: relative;
+    aspect-ratio: 5/6;
+    width: 15%;
+    object-fit: cover;
+    margin-left: 3%;
+    opacity: 90%;
+}
+.small-photo:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.big-photo {
+    aspect-ratio: 16/9;
+    width: 60%;
+    min-width: 300px;
+}
+ .small-gallery {
+    position: absolute;
+    left: 50vw;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+    z-index: 3;
+}
+.gallery {
+    position: relative;
+}
+h2{
+    font-size:calc(0.5rem + 3vw);
+}

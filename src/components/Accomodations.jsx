@@ -6,8 +6,8 @@ import  henderson from "../assets/images/Henderson_penthouse.webp";
 import { Card } from "./Card";
 export const Accomodations = () => {
   return (
-    <div className="accomodations">
-      <h2>Accomodations</h2>
+    <section className="accomodations">
+      <h2>Rooms</h2>
       <div className="accomodations-cards">
         <Card
           prologue="2 adults | 1 child below 7"
@@ -28,6 +28,6 @@ export const Accomodations = () => {
           photo={henderson}
         />
       </div>
-    </div>
+    </section>
   );
 };

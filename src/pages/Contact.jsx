@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 export const Contact = () => {
   const [input, setInput] = useState({});
   function handleChange(e) {
@@ -59,3 +60,4 @@ export const Contact = () => {
     </section>
   );
 };
+

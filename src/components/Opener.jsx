@@ -1,22 +1,17 @@
 import "./Opener.css";
-import gourmand from '../assets/images/Ultra_Luxe_Gourmand.webp'
+import gourmand from "../assets/images/Ultra_Luxe_Gourmand.webp";
 const Opener = () => {
   return (
     <section className="opener">
       <div className="opener-text">
         <h2>A Luxury Home Away From Home </h2>
-        <img  src={gourmand} loading="lazy"/>
+        <img src={gourmand} loading="lazy" />
         <p className="flavor-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit unde
-          ducimus magni sint saepe! Expedita officia temporibus, sint
-          consequuntur pariatur distinctio fugit non, esse ea culpa quibusdam
-          tenetur quidem officiis? <br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit unde
-          ducimus magni sint saepe! Expedita officia temporibus, sint
-          consequuntur pariatur distinctio fugit non, esse ea culpa quibusdam
-          tenetur quidem officiis?
+          Step into a world where luxury meets excitement at the Ultra-Luxe, the
+          premier casino-resort destination. Nestled in the heart of the Strip,
+          our resort offers a getaway like no other, where indulgence and
+          entertainment are the pillars of your stay.
         </p>
-        
       </div>
     </section>
   );
